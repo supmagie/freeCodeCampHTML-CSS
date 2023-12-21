@@ -1,0 +1,169 @@
+/* For all the page */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    position: relative;
+}
+
+body {
+    background-color: rgb(243, 243, 227);
+    font-size: 16px;
+}
+
+hr {
+    margin-top: 2%;
+}
+
+/* Header and nav-bar */
+
+#header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* border-bottom: solid 2px; */
+    padding: 0 10px;
+    background-color: rgb(113, 78, 32);
+}
+
+#logo {
+    display: flex;
+    max-width: 20%;
+    height: auto;
+}
+
+#nav-bar {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+#navigation {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+#nav-link {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color:rgb(145, 182, 218)
+}
+
+/* Main */
+
+#main {
+    padding-top: 20px;
+    margin: 10% 10% 0 10%;
+}
+
+#titre_principal {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.title2 {
+    font-size: 35px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* Form */
+
+#form {
+    text-align: center;
+}
+
+/* Section 1 - Fonctionnality */
+
+.nom_service {
+    font-size: 1.5rem;
+    margin: 1% 0 1% 0
+
+}
+
+.section1 > div > p {
+    line-height: 1.5
+}
+
+/* Section 2 - Comment ca marche */
+
+#video {
+    display: block;
+    margin: 0 auto
+}
+
+/* Section 3 - Tarifs */
+
+#comment-ca-marche {
+    margin-bottom: -5% !important;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service {
+    text-align: left;
+    margin: 2%;
+    border: solid 2px;
+}
+
+.tarif-service {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(223, 216, 216);
+}
+
+.service > p {
+    margin-bottom: 5px;
+    padding: 5%;
+}
+
+/* Footer */
+
+#footer {
+    width: 80%;
+    display: flex;
+    background-color: rgb(111, 156, 132);
+    margin: 2% 10% 0 10%;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+#social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your Email" required></label>
+      <label id="number-label" for="number">Age (optional)<input id="number" type="number" placeholder="Age" min="13" max="120"></label>
+    </fieldset>
+    <fieldset>
+      <label>What do you want to learn?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="html5">HTML5</option>
+          <option value="css3">CSS3</option>
+        </select>
+      </label>
+      <label for="athome">Where do you work?<input type="radio" name="recommend" id="athome" value="athome"> At home</label>
+      <label for="office"><input type="radio" name="recommend" id="office" value="office">In the Office</label>
+      <label class="Choose">Choose your OS:<br/><input type="checkbox" value="Windows">Windows</label>
+      <label><input type="checkbox" value="Linux">Linux</label>
+      <label><input type="checkbox" value="MacOS">MacOS</label>
+      <label><input type="checkbox" value="FreeBSD">FreeBSD</label>
+      <label>Please leave a comment:<textarea placeholder="I love to eat apples..."></textarea></label>
+    </fieldset>
+    <fieldset>
+      <label for="submit"><input type="submit" id="submit" value="Submit"></label>
+    </fieldset>    
+    </form>
+  </body>
+</html>
